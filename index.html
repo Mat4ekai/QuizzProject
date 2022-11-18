@@ -34,19 +34,30 @@
 
 <p class="fs-1 text-center p-3"> Quiz Games</p>
 
-<section id="regsec" class="h-3 w-3 text-center mt-3 rounded">
+<section id="regsec" class="mt-3 rounded shadow p-3 mb-5 bg-body rounded">
     <div id="regrow">
-        <div class="fs-3">Введите свои данные</div>
-        <div class="col pb-1">
-            <input type="text" name="login" class="form-control mx-auto w-50 text-center" id="login" placeholder="Ваш логин" required maxlength="30">
-        </div>
-        <div class="col pt-2">
-            <input type="text" name="password" class="form-control mx-auto w-50 text-center" id="password" placeholder="Ваш пароль" required maxlength="20">
-        </div>
-        <div class="col pt-2">
-            <a href="registration.html" class="ps-5 mb-3">Регистрация</a>
-            <button class="btn btn-secondary pe-5 mb-3">Войти</button>
-        </div>
+        <div class="fs-2 text-center">Войдите в акаунт</div>
+        <form>
+            <!-- email -->
+            <div class="form-outline mb-4 ps-5 pt-2">
+                <input type="login" class="form-control w-75" placeholder="Логин"/>
+            </div>
+
+            <!-- password -->
+            <div class="form-outline mb-4 ps-5">
+                <input type="password" class="form-control w-75" placeholder="Пароль"/>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Забыли пароль?</a>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="button" class="btn btn-primary btn-block mb-4">Войти</button>
+        </form>
     </div>
 </section>
 
