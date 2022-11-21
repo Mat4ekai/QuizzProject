@@ -1,11 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #8f8e91;
-}
-
-a {
-    text-decoration: none;
-    color: #d9232d;
+    background-image: url(/assets/img/background.png);
 }
 
 a:hover {

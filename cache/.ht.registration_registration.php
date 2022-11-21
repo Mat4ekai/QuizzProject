@@ -1,0 +1,98 @@
+<?php
+/*
+    SB-Template simple compiled template.
+    This script is generated, do not modify.
+    Compiled: 21.11.2022 14:34:47
+    TPL file: /registration_registration.tpl
+*/
+function tpl_6ec48fe760c9a033529053e70ee9d014(Template $__tpl, &$__tpl_data){
+?>
+<?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Квиз - Игры</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/assets/img/logo.png" rel="icon">
+    <link href="/assets/img/logo.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<p class="fs-1 text-center p-3 text-light"> Quiz Games</p>
+
+<section id="regsec" class="mt-3 rounded shadow p-3 mb-5 bg-body rounded">
+    <div id="regrow">
+        <div class="fs-2 text-center">Регистрация</div>
+        <form method="POST" action="" value="SendForm">
+            <input type="hidden" name="action" value="SendForm">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input type="email" id="email" name="email" class="form-control" />
+                <label class="form-label">Введите почту</label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input type="login" id="login" name="login" class="form-control" />
+                <label class="form-label">Придумайте логин</label>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <input type="password" id="password" name="password" class="form-control" />
+                <label class="form-label">Придумайте пароль</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked aria-describedby="registerCheckHelpText"/>
+                <label class="form-check-label" for="registerCheck">
+                    Я прочитал и согласен с условиями
+                </label>
+            </div>
+
+            <div class="row">
+                <button type="submit" class="btn btn-primary btn-block float-end"><a class="text-light">Зарегистрироваться</a></button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Vendor JS Files -->
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+
+</body>
+
+</html><?php } ?><?php
+} // tpl_6ec48fe760c9a033529053e70ee9d014
